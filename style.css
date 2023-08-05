@@ -1,0 +1,82 @@
+body {
+   background-color: rgb(0, 0, 0);
+   margin: 0px;
+   padding: 0px;
+}
+
+.slider {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   margin: 107px 134px 123.72px 134px;
+}
+
+.item {
+   display: flex;
+   justify-content: space-between;
+}
+
+.but {
+   display: flex;
+   justify-content: start;
+   gap: 20px;
+   position: absolute;
+   bottom: 0px;
+   align-items: center;
+}
+
+.previous,
+.next {
+   cursor: pointer;
+}
+
+.button {
+   cursor: pointer;
+}
+
+.one {
+   filter: invert(30%);
+}
+
+.head__menu {
+   display: flex;
+   justify-content: end;
+   font-size: 12px;
+   font-family: Yeseva One;
+   line-height: 19.4px;
+   font-weight: 400;
+   gap: 30px;
+   list-style-type: none;
+   margin-right: 25px;
+   margin-bottom: 45.36px;
+}
+
+.list {
+   text-transform: uppercase;
+   cursor: pointer;
+   color: rgba(255, 255, 255, 0.3)
+}
+
+.reallist {
+   color: #E3B873;
+   border-bottom: 2px solid #E3B873;
+   padding-bottom: 5px;
+}
+
+.img_left {
+   max-width: 442px;
+   max-height: 390px;
+}
+
+.img_right {
+   max-width: 679px;
+   max-height: 482.38px;
+   object-fit: contain;
+   overflow: hidden;
+}
+
+.ceck {
+   display: flex;
+   gap: 16px;
+   height: fit-content;
+}
